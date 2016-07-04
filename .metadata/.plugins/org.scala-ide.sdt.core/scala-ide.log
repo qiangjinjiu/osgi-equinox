@@ -1,0 +1,12 @@
+2016-07-04 16:16:44,879 ERROR [Thread-191] - System.err - Exception in thread "Thread-191"
+2016-07-04 16:16:44,881 ERROR [Thread-191] - System.err - java.util.ConcurrentModificationException
+2016-07-04 16:16:44,881 ERROR [Thread-191] - System.err - at java.util.HashMap$HashIterator.nextNode(Unknown Source)
+2016-07-04 16:16:44,881 ERROR [Thread-191] - System.err - at java.util.HashMap$KeyIterator.next(Unknown Source)
+2016-07-04 16:16:44,881 ERROR [Thread-191] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:767)
+2016-07-04 16:16:44,881 ERROR [Thread-191] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:691)
+2016-07-04 16:16:44,881 ERROR [Thread-191] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:767)
+2016-07-04 16:16:44,881 ERROR [Thread-191] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:691)
+2016-07-04 16:16:44,881 ERROR [Thread-191] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.removeSummaries(ProjectionSummary.java:173)
+2016-07-04 16:16:44,881 ERROR [Thread-191] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.internalUpdateSummaries(ProjectionSummary.java:152)
+2016-07-04 16:16:44,881 ERROR [Thread-191] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.access$3(ProjectionSummary.java:147)
+2016-07-04 16:16:44,881 ERROR [Thread-191] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary$Summarizer.run(ProjectionSummary.java:72)

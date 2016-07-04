@@ -1,0 +1,11 @@
+package org.equinoxosgi.toast;
+
+public class EmergencyMonitor implements IAirbagListener {
+
+	@Override
+	public void deployed() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
