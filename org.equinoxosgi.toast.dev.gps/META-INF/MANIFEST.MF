@@ -4,5 +4,7 @@ Bundle-Name: Toast Gps
 Bundle-SymbolicName: org.equinoxosgi.toast.dev.gps
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Import-Package: org.osgi.framework;version="1.3.0"
+Import-Package: org.osgi.framework;version="1.5.0"
 Export-Package: org.equinoxosgi.toast.dev.gps
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.equinoxosgi.toast.internal.dev.gps.fake.bundle.Activator

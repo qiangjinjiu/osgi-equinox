@@ -1,12 +1,12 @@
 package org.equinoxosgi.toast.client.emergency;
 
-import org.equinoxosgi.toast.dev.airbag.Airbag;
+import org.equinoxosgi.toast.dev.airbag.IAirbag;
 import org.equinoxosgi.toast.dev.airbag.IAirbagListener;
-import org.equinoxosgi.toast.dev.gps.Gps;
+import org.equinoxosgi.toast.dev.gps.IGps;
 
 public class EmergencyMonitor implements IAirbagListener {
-	private Airbag airbag;
-	private Gps gps;
+	private IAirbag airbag;
+	private IGps gps;
 	
 	@Override
 	public void deployed() {
@@ -16,11 +16,11 @@ public class EmergencyMonitor implements IAirbagListener {
 
 	}
 
-	public void setAirbag(Airbag airbag) {
+	public void setAirbag(IAirbag airbag) {
 		this.airbag = airbag;
 	}
 
-	public void setGps(Gps gps) {
+	public void setGps(IGps gps) {
 		this.gps = gps;
 	}
 	
